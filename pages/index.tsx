@@ -5,7 +5,12 @@ import Container from "../components/common/Container";
 const Home: NextPage = () => {
   return (
     <MainLayout>
-      <Container>Home page</Container>
+      <Container>
+        <div className="font-mono">123123</div>
+        <div className="font-serif">
+          asdad
+        </div>
+      </Container>
     </MainLayout>
   );
 };

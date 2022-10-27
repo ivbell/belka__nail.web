@@ -3,7 +3,7 @@ import React, { FC } from 'react';
 type Props = {
   children: React.ReactNode;
   onClick?: () => void;
-  type: 'link' | 'primary' | 'ghost';
+  type?: 'link' | 'primary' | 'ghost';
 };
 
 const Button: FC<Props> = (props) => {

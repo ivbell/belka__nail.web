@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import Button from '../common/Button';
 import Container from '../common/Container';
+import Logo from '../common/Logo';
 import NavLink from '../common/NavLink';
 
 const Navbar: FC = () => {
@@ -11,7 +12,9 @@ const Navbar: FC = () => {
           <div>
             <NavLink href='/' title='Главная' />
           </div>
-          <div className='absolute left-[50%]'>Logo</div>
+          <div className='absolute left-[50%]'>
+            <Logo />
+          </div>
           <div>
             <Button>1231</Button>
           </div>
