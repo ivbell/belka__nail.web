@@ -23,7 +23,10 @@ const Button: FC<Props> = (props) => {
   };
 
   return (
-    <div className={`px-4 py-1 rounded-sm cursor-pointer transition-all  ${_classNames()}`} onClick={props.onClick}>
+    <div
+      className={`px-4 py-1 rounded-sm cursor-pointer transition-all  ${_classNames()}`}
+      onClick={props.onClick}
+    >
       {props.children}
     </div>
   );

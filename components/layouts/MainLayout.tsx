@@ -9,7 +9,7 @@ const MainLayout: FC<Props> = (props) => {
   return (
     <BaseLayout title={props.title} description={props.description} headChildren={props.headChildren}>
       <Navbar />
-      <main className={'py-2'}>{props.children}</main>
+      <main className={'pb-2 pt-16'}>{props.children}</main>
     </BaseLayout>
   );
 };
